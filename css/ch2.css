@@ -1,0 +1,482 @@
+
+
+ @font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  *{font-family: 'NanumSquareRound';}
+  
+
+
+
+@media(max-width: 640px)  {
+  *{
+    min-height: 0; 
+    }
+  .btmenu{display: none;}
+    .bird{
+      display: none;
+    }
+  .bird{
+    display: none;
+  }.dropdown{
+    display: none;
+  }
+  .imgslide{
+    display: none;
+  }
+.news1{
+  display: contents;
+}
+.contentss{
+  display: contents;
+  background-color: antiquewhite;
+}
+.contents{
+  display: contents;
+}
+.centerplz {
+  display: none;
+}
+.video{
+  display: none;
+}
+.tab
+{display: none;}
+
+body#page-top{
+  background-color: antiquewhite;
+}
+#body{min-height: 0;
+min-width: 0;
+background-color: antiquewhite;}
+
+
+}
+
+.bb{
+  margin-left: 80px;
+}
+
+
+
+#bs-example-navbar-collapse-1 > ul > li:hover{
+  transition: ease 1s;
+ font-weight: bold;
+  color: black;
+}
+#bs-example-navbar-collapse-1 > ul > li > ul > li > a:hover {
+  transition: ease 1s;
+  background: rgb(219, 219, 219) !important;
+}
+
+.btlogo{
+  padding: 10px;
+  padding-left: 80px;
+}
+
+ body {
+  background-color: rgb(255, 252, 252);
+  min-veight: 100%;
+ 
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+
+
+
+
+.btmenu{
+  text-align: right !important;
+  font-size: 12px;
+  line-height: 30px;
+  color: black;
+  }
+
+.btmenu li{
+  
+  display: inline-block;
+  width: 100px;
+}
+
+.btmenu li:hover{
+  font-weight: bold;
+}
+footer {
+display: inline-block;
+ 
+  
+}
+
+footer > ul{
+  list-style: none;
+ 
+
+}
+footer ul > li {
+  float: left;
+}
+footer ul > li > a {
+  color: black;
+}
+footer > span {
+  display: inline-block;
+
+}
+
+
+
+.copy{
+  text-align: left;
+  color: gray;
+}
+
+footer{
+
+  font-size: 16px;
+}
+
+
+
+.dropdown{
+  font-size: 20px;
+  width: 100%;
+  padding: 2px;
+  top: 60px;
+  font-weight: bold;
+  
+}
+
+.my-hr1 {
+  border: 0;
+  height: 2px;
+  background: gray;
+}
+
+
+
+.my-hr2 {
+  border: 0;
+  height: 1px;
+  background: rgb(188, 173, 173)
+}
+.my-hr3{
+  border: 0px;
+  height: 0.5px;
+  background: rgb(188, 173, 173)
+}
+
+
+.btmenu{
+top: -80px;
+text-align: right;
+margin-left:1100px;
+
+font-size: 13px;
+line-height: 30px;
+color: black;
+position: relative;
+text-decoration: none;}
+
+
+.btmenu li{
+  text-decoration: none;
+}
+.btmenu li a{
+  color: rgba(89, 75, 196, 0.986);
+}
+
+.btmenu li a:hover{
+
+
+text-align: right;
+
+color: blue;
+position: relative;}
+
+.btmenu li{
+margin-top: 10px;
+display: inline-block;
+width: 100px;
+text-decoration: none;
+}
+
+.bird{
+  width: 40px;
+}
+
+/* 이미지슬라이드응 */
+
+.slidebox{
+  width: 100%;
+  height: 800px;
+  background: beige;    
+  /* 헤더 박스 자식들의 float 해제 */
+  clear: both;  
+  /* 앞서 float 사용 후 float 해제할 경우 반드시 다음 요소에서 */
+  /* float를 해제해 줘야 함. 해제는 보통 clear:both; 를 사용함 */
+  overflow: hidden;
+  position: relative;
+}
+
+/* 슬라이드가 구현될 이미지 영역 코딩 */
+.slidebox> img{
+  /* 부모 박스(.slide_box) 안에서 동작하도록 position: absolute 설정함 */
+  position: absolute;
+  /* 박스에 맞도록 width:100% 설정함 */
+  width: 100%;
+  height: 100%
+  /* 부드럽게 장면 전환이 이루어지도록 transition:1s 설정함 */
+  /* transition: 1s; */
+}
+/* 공지사항 */
+
+.notice{
+  float: left;
+  height: 180px;
+  width: 390px;
+  top: 200px;
+
+}
+
+.notice > ul > li > a :hover{
+font-weight: bolder;
+}
+
+.tab{
+  
+}
+
+.tab h4{
+  float: left;
+  height: 20px;
+  width: 100px;
+  font-size: 17px;
+  padding: 0;
+}
+
+.notice > div{
+  width: 430px;
+  border-bottom-color: gray;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+}
+
+/* 공지사항(.notice) 콘텐츠 영역 스타일 적용 */
+.notice li{
+  float: left;
+  height: 38px;
+  width: 390px;
+  line-height: 38px;
+  font-size: 14px;
+  
+}
+
+.notice li span{
+  float: right;
+  color: gray;
+}
+
+/* 공지사항(.notice) 2배수(2n) 요소 배경 스타일 적용 */
+.notice li:nth-child(2n){
+  background-color:rgb(175, 228, 175);
+}
+
+
+/* 공지사항(.notice) 콘텐츠에 마우스를 올릴 때 스타일 적용 */
+.notice li :hover{
+  font-weight: bold;
+}
+
+.contents{
+  top: 10px;
+  margin-left: 1400px;  
+}
+
+
+
+.wrapper{
+  display: inline block;
+
+}
+
+.centerplz{
+   margin-left: 400px;
+  
+}
+
+
+
+
+
+.contentss{
+  /* 콘텐츠(공지사항 notice, 갤러리 gallery, 바로가기 shortcut) 높이 */
+  height: 200px;
+  /* 콘텐츠(공지사항 notice, 갤러리 gallery, 바로가기 shortcut) 너비 */
+  width: 1000px;
+  margin-left: 400px;
+}
+
+.notice{
+  float: left;
+  height: 180px;
+  width: 390px;
+  margin-top: 10px;
+}
+
+.tab{
+  float: left;
+  width: 400px;
+}
+
+.tab h4{
+  float: left;
+  height: 20px;
+  width: 124px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #fabd43;
+}
+
+.notice > div{
+  width: 400px;
+  border-bottom-color: #fabd43;
+  border-bottom-width:2px;
+  border-bottom-style:solid;
+}
+
+/* 공지사항(.notice) 콘텐츠 영역 스타일 적용 */
+.notice li{
+  float: left;
+  height: 38px;
+  width: 390px;
+  line-height: 38px;
+  font-size: 14px;
+}
+
+.notice li span{
+  float: right;
+}
+
+/* 공지사항(.notice) 2배수(2n) 요소 배경 스타일 적용 */
+.notice li:nth-child(2n){
+  background-color: #fabd43;
+}
+
+/* 공지사항(.notice) 콘텐츠에 마우스를 올릴 때 스타일 적용 */
+.notice li:hover{
+  font-weight: bold;
+}
+
+
+
+.gallery{
+  float: left;
+  height: 180px;
+  width: 390px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+.gallery > div{
+  width: 390px;
+  border-bottom-color:#fabd43;
+  border-bottom-width:2px;
+  border-bottom-style:solid;
+}
+
+/* 갤러리(.gallery) 콘텐츠 영역 스타일 적용 */
+.gallery li{
+  float: left;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+/* 갤러리(.gallery) 콘텐츠 이미지 영역 스타일 적용 */
+.gallery img{
+  height: 165px;
+  width: 125px;
+}
+
+/* 갤러리(.gallery) 콘텐츠에 마우스를 올릴 때 스타일 적용 */
+.gallery li:hover{
+  opacity: 0.5;
+}
+
+.video{
+margin-left: 1280px;
+}
+
+.video{}
+
+
+
+#popupWindow{ /*팝업창*/
+  width: 540px;
+  position: absolute; /*팝업창 자유롭게 하기 위해 absolute 적용*/
+  right: 100px;
+  top: 300px;
+  border: solid black 1px;
+  cursor: pointer;
+  background-color: white;
+  z-index: 99;
+}
+
+
+
+.closeWrap p{
+  margin: 0;
+}
+
+.closeBtn{
+  margin-left: 20px;
+  cursor: pointer; /*마우스 포인터 손모양 적용*/
+  color: #000;
+}
+
+#gallery_wrap{
+  margin: 0 auto;
+  width: 540x;
+  position: relative;
+
+}
+
+.bximg{
+  width: 480px;
+}
+
+.bximg_sub:hover{
+  opacity: 0.9;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  height: 400px
+}
+
+.bestpick{
+  margin-left: 200px;
+  margin-bottom: 20px;
+  cursor: default; /*마우스 커서 기본모양 유지*/
+}
+
+.stylepick{
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.contents{
+  height: 600px;
+  width: 1600px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
